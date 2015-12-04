@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-markdown-css",
+    "version": "0.0.0",
+    "author": "GitBook <contact@gitbook.com>",
+    "description": "Minimalist stylesheet (CSS or Less) for markup output ",
+    "bugs": "https://github.com/GitbookIO/markdown-css/issues",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "less": "2.5.3"
+    },
+    "scripts": {
+        "prepublish": "mkdir -p css; lessc ./less/main.less > ./css/gitbook-markdown.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GitbookIO/markdown-css.git"
+    }
+}
