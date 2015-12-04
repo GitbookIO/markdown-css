@@ -26,9 +26,15 @@
     color: @md-color;
     line-height: @md-line-height;
 
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
     * {
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
+        font-size: inherit;
     }
 
     & > *:first-child {
@@ -145,6 +151,7 @@
         margin: 0px;
         padding: 0px;
         border: none;
+        color: inherit;
     }
 
     pre {
