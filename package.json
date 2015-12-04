@@ -1,6 +1,6 @@
 {
     "name": "gitbook-markdown-css",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "GitBook <contact@gitbook.com>",
     "description": "Minimalist stylesheet (CSS or Less) for markup output ",
     "bugs": "https://github.com/GitbookIO/markdown-css/issues",
